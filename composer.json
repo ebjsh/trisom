@@ -1,0 +1,13 @@
+{
+    "name": "ebjsh/heroku",
+    "description": "Lesson App",
+    "type": "project",
+    "license": "WTFPL",
+    "authors": [
+        {
+            "name": "Ebjsh",
+            "email": "po@dre.su"
+        }
+    ],
+    "require": {}
+}
