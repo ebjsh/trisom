@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <head>
     <title>Heroku chat</title>
-    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/index.css?<?= rand(); ?>">
 </head>
 <body>
     <aside>
@@ -13,8 +13,17 @@
             <a href="//urban.tools">Urban</a>
             <a href="//zzzgu.ru">Zzz Guru</a>
         </nav>
-        <article>
+        <header>
             <h1>Heroku list app</h1>
+        </header>
+
+        <article>
+            <p>List of all aplications</p>
+            <ul>
+                <li><a href="//emapple.com" target="_blank">portfolio site</a></li>
+            </ul>
+
         </article>
+        
     </main>
 </body>

@@ -1,4 +1,55 @@
+:root {
+    --clr-block:rgb(5, 37, 22);
+    --clr-block-content:rgb(8, 145, 93);
+    --clr-block-content-a:rgb(8, 145, 93, 0.7);
+
+    --clr-block-gold:rgb(219, 177, 119);
+    --clr-block-red:rgb(202, 80, 69);
+    --clr-block-red-a:rgb(202, 80, 69, 0.7);
+}
+
 html, body {
     padding:0;
     margin:0;
+}
+
+body {
+    background: url('/src/jungle_p.jpg') 0 0 repeat;
+    background-size: 250px 250px;
+}
+
+nav {
+    padding:10px;
+
+    background-color:rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(3px);
+
+}
+
+nav a {
+    padding: 0 10px;
+    color:var(--clr-block);
+}
+
+header {
+    padding: 10px;
+
+    background-color: var(--clr-block-red-a);
+    backdrop-filter: blur(3px);
+
+    color:var(--clr-block-gold);
+}
+
+article {
+    margin-top:35px;
+    padding: 35px;
+
+    background-color: var(--clr-block-content-a);
+    backdrop-filter: blur(3px);
+
+    color:var(--clr-block-gold);
+}
+
+article a {
+    color:var(--clr-block-gold);
 }
